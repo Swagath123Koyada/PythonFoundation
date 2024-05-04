@@ -37,9 +37,15 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/5dc2b986-e012-4420-90c6-098d9e925427)
 
 4. How would you reverse a string using string indexing?
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/30f16aad-74ff-41db-83e6-5f03523115c4)
 
 5. Given the string "banana", how would you access the last character using negative indexing?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a55ce9c8-41a5-494a-a3c8-c39e3d3fa2b0)
 
+# List Operations:
+
+1. Given the list [1, 2, 3, 4, 5], how would you access the third element?
+
+   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/eb1d1133-2d87-4a77-8426-68912411bbc6)
 
