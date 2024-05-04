@@ -22,3 +22,24 @@ Welcome to PythonFoundation, your gateway to mastering the fundamentals of Pytho
 
 # Get Started:
 Ready to embark on your Python programming journey? Clone the PythonFoundation repository and dive into the world of Python programming today!
+
+# BASIC PYTHON DATA MANIPULATION OBJECTIVES:
+
+# String Indexing:
+
+1. What is the index of the first occurrence of the letter 'o' in the string "Hello, world!"?
+   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a0c75198-70d4-4a64-9ab3-6eb1ff7fa183)
+
+2. How would you extract the substring "world" from the string "Hello, world!" using string indexing?
+   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/e7caea40-47bf-4c84-8cb6-f28392941380)
+
+3. Given the string "racecar", how would you check if it is a palindrome using string indexing?
+   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/5dc2b986-e012-4420-90c6-098d9e925427)
+
+4. How would you reverse a string using string indexing?
+   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/30f16aad-74ff-41db-83e6-5f03523115c4)
+
+5. Given the string "banana", how would you access the last character using negative indexing?
+   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a55ce9c8-41a5-494a-a3c8-c39e3d3fa2b0)
+
+
