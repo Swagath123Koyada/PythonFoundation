@@ -66,22 +66,23 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 # Dictionary Operations:
 
 1. Given the dictionary {'Name': 'John', 'Age': 30, 'City': 'New York'}, how would you access the value associated with the key 'age'?
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/c060ac41-7dea-47c1-bec6-b37c7bb0921f)
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/e879e487-88af-4a62-9cb9-99cbb9253b5a)
 
-2. How would you add a new key-value pair 'gender': 'Male' to the dictionary?
+3. How would you add a new key-value pair 'gender': 'Male' to the dictionary?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/b770dd1e-61e2-4e9a-8a54-93b694acfa49)
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/3b8599d9-3205-4098-8cf7-06f5700c7ff8)
 
-3. Given the dictionary {'a': 1, 'b': 2, 'c': 3}, how would you change the value associated with the key 'b' to 5?
+4. Given the dictionary {'a': 1, 'b': 2, 'c': 3}, how would you change the value associated with the key 'b' to 5?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d1f1fc70-a981-47ea-9837-f7273cd6e9f1)
 
-4. How would you remove a key-value pair from a dictionary?
+5. How would you remove a key-value pair from a dictionary?
 
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/5ffc0192-dff5-48a5-bee1-79a8fdc5bfaa)
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/be84e38b-8dec-4cc9-80b0-63fb2a886e50)
 
-5. How would you create a dictionary from two lists, one containing keys and the other containing values?
+6. How would you create a dictionary from two lists, one containing keys and the other containing values?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/21fdb6ae-621a-4a8a-a563-db4d478e0ddb)
 
 # Built-in Functions (len, sum, max, sorted, abs):
