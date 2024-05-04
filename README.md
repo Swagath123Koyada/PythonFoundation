@@ -104,13 +104,15 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 # Class Creation:
 
 1. Define a class Car with attributes make, model, and year. Implement a method display_info() that prints out the car's make, model,and year.
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/e330bd73-219b-4145-9f93-cb83d64a0081)
 
-2. Create a class Book with attributes title, author, and pages. Implement a method display_info() that prints out the book's title, author, and number of pages.
+2 Create a class Book with attributes title, author, and pages. Implement a method display_info() that prints out the book's title, author, and number of pages.
 
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/ed54b69d-ce00-4ad6-8832-f6995a6ab0d9)
 
 3. Create a class Dog with attributes name, breed, and age. Implement a method speak() that prints out the dog's name and says "Woof!".
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d75a55fa-27ce-4d02-a0da-e31f750bd30a)
 
 4. Create a class Employee with attributes name, salary, and department. Implement a method get_bonus() that returns 10% of the employee's salary as a bonus.
@@ -127,15 +129,18 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/685d5da8-30fa-47cd-ba9f-e2c5238a6ff8)
 
 2. Create a class Employee with attributes name and salary. Define a subclass Manager that inherits from Employee and adds an attribute bonus. Implement a method calculate_total_salary in both classes to calculate the total salary including bonus for a manager.
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/19dd8b05-4025-4ab2-88c9-39012b0b60c1)
 
 3. Define a class Person with attributes name and age. Create a subclass Student that inherits from Person and adds an attribute grade. Implement a method is_passing in the Student class that returns True if the student's grade is above or equal to 'C', otherwise False.
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/1c1818db-40cb-42a4-b3f7-81e2775a403d)
 
 4. Define a class Employee with attributes name and salary. Create subclasses Manager and Developer that inherit from Employee. Implement methods calculate_bonus in each subclass to calculate the bonus based on the salary.
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/2252c046-905f-4bfa-8e2d-92ac768d34d8)
 
 5. Create a class Fruit with attributes name and color. Define a subclass Apple that inherits from Fruit and adds attributes taste and size. Implement a method is_delicious() in both classes to determine if the fruit is delicious based on its taste.
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/42cbb5a7-2fbd-412d-ae7a-602a415abfcf)
 
 # Looping Statements
@@ -217,4 +222,5 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/1186566d-1340-4b6f-a324-bafad99220d4)
 
 5. Create a function called is_prime that takes a positive integer as input and returns True if it's prime, otherwise False.
+
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/71e08795-362c-4ccb-8e79-5ff8595059e4)
