@@ -30,7 +30,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 
 ## BASIC PYTHON DATA MANIPULATION OBJECTIVES:
 
-#### String Indexing:
+### String Indexing:
 
 1. What is the index of the first occurrence of the letter 'o' in the string "Hello, world!"?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a0c75198-70d4-4a64-9ab3-6eb1ff7fa183)
@@ -48,7 +48,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 5. Given the string "banana", how would you access the last character using negative indexing?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a55ce9c8-41a5-494a-a3c8-c39e3d3fa2b0)
 
-#### List Operations:
+### List Operations:
 
 1. Given the list [1, 2, 3, 4, 5], how would you access the third element?
 
@@ -68,7 +68,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 5. Given the lists [1, 2, 3] and [4, 5, 6], how would you concatenate them into a single list?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/4326a080-24e9-452a-9b0c-3ae8006a8c7a)
 
-#### Dictionary Operations:
+### Dictionary Operations:
 
 1. Given the dictionary {'Name': 'John', 'Age': 30, 'City': 'New York'}, how would you access the value associated with the key 'age'?
 
@@ -90,7 +90,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 6. How would you create a dictionary from two lists, one containing keys and the other containing values?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/21fdb6ae-621a-4a8a-a563-db4d478e0ddb)
 
-#### Built-in Functions (len, sum, max, sorted, abs):
+### Built-in Functions (len, sum, max, sorted, abs):
 
 1. How would you use the len() function to find the number of elements in a list?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/367f7599-f5bc-433f-a376-feb65369de35)
@@ -107,7 +107,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 5. How would you use the sorted() function to sort a list of numbers in ascending order?
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d4e8d526-ca4a-4fa9-8d46-0326af9a7754)
 
-#### Class Creation:
+### Class Creation:
 
 1. Define a class Car with attributes make, model, and year. Implement a method display_info() that prints out the car's make, model,and year.
 
@@ -129,7 +129,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/9ba6811d-0040-41b2-923c-970dab4e82cb)
 
-#### Class Inheritance:
+### Class Inheritance:
 
 1. Define a class Animal with attributes name and species. Create a subclass Dog that inherits from Animal and adds an attribute breed. Implement a method speak() in both classes to print out the sound the animal makes.
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/685d5da8-30fa-47cd-ba9f-e2c5238a6ff8)
@@ -149,7 +149,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/42cbb5a7-2fbd-412d-ae7a-602a415abfcf)
 
-#### Looping Statements
+### Looping Statements
 **For Loop**
 
 1. Write a program to print the numbers from 1 to 5 using a for loop.
@@ -193,7 +193,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/2e1d7de6-8016-4f8a-956d-60787573ad00)
 
-#### Lambda Functions:
+### Lambda Functions:
 
 1. Write a lambda function to calculate the square of a number.
 
@@ -213,7 +213,7 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 5. Create a list of strings and use a lambda function to sort them alphabetically.
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/98f66765-20ff-43d0-b3d7-f1455c36070c)
 
-#### UDF: Arguments and Parameters
+### UDF: Arguments and Parameters
 
 1. Write a function called add_numbers that takes two numbers as input and returns their sum.
    ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/27386098-25ad-4d8a-919a-a2a5c09504de)
