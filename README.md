@@ -33,20 +33,80 @@ Ready to embark on your Python programming journey? Clone the PythonFoundation r
 ### String Indexing:
 
 1. What is the index of the first occurrence of the letter 'o' in the string "Hello, world!"?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a0c75198-70d4-4a64-9ab3-6eb1ff7fa183)
+
+**Code -**
+
+string = "Hello, world!"
+
+index = string.find('o')
+
+print("Index of the first occurrence of 'o':", index)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/18fd830d-965d-4486-b257-13c742168898)
 
 2. How would you extract the substring "world" from the string "Hello, world!" using string indexing?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/e7caea40-47bf-4c84-8cb6-f28392941380)
+
+  **Code -**
+
+string = "Hello, world!"
+
+substring = string[7:12]
+
+print("Extracted substring:", substring)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/8ad188b6-2c96-468e-8761-8bc3143cf269)
 
 3. Given the string "racecar", how would you check if it is a palindrome using string indexing?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/5dc2b986-e012-4420-90c6-098d9e925427)
+
+**Code -**
+
+string = "racecar"
+
+is_palindrome = string == string[::-1]
+
+if is_palindrome:
+    
+    print("The string is a palindrome.")
+
+else:
+    
+    print("The string is not a palindrome.")
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/8c12e8a9-13a6-4077-bfcd-6ac8f1ccf677)
 
 4. How would you reverse a string using string indexing?
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/30f16aad-74ff-41db-83e6-5f03523115c4)
+**Code -**
+
+string = "Hello, world!"
+
+reversed_string = string[::-1]
+
+print("Reversed string:", reversed_string)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/408c1fbb-d749-4799-addc-b2b45c572c8f)
 
 5. Given the string "banana", how would you access the last character using negative indexing?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a55ce9c8-41a5-494a-a3c8-c39e3d3fa2b0)
+
+**Code -**
+
+string = "banana"
+
+last_character = string[-1]
+
+print("Last character:", last_character)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a0a49b04-254b-481d-804c-29703a41418f)
 
 ### List Operations:
 
