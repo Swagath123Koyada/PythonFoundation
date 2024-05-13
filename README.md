@@ -1,6 +1,8 @@
 ### <div align="center"> <h1> PythonFoundation </h1> </div>
 
-![200](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a5447b01-1758-49f3-a52c-ba6aca5a7dae)
+<p align="center">
+  <img src="https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a5447b01-1758-49f3-a52c-ba6aca5a7dae" alt="">
+</p>
 
 Welcome to PythonFoundation, your gateway to mastering the fundamentals of Python programming! This comprehensive base project provides a solid foundation for beginners and aspiring Python developers to explore the core concepts of the language in a structured and engaging manner.
 # Key Features:
