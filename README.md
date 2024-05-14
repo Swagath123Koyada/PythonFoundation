@@ -1,34 +1,56 @@
-### <div align="center"> <h1> PythonFoundation </h1> </div>
+### <div align="center"> <h1> Python Basics Project </h1> </div>
 
 <p align="center">
   <img src="https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/eee03277-7726-4c39-ad77-135cc72cb9f2" alt="">
 </p>
 
-Welcome to PythonFoundation, your gateway to mastering the fundamentals of Python programming! This comprehensive base project provides a solid foundation for beginners and aspiring Python developers to explore the core concepts of the language in a structured and engaging manner.
-### Key Features:
+Welcome to **Python Basics Project**, your gateway to mastering the fundamentals of Python programming! This comprehensive base project provides a solid foundation for beginners and aspiring Python developers to explore the core concepts of the language in a structured and engaging manner. This Python Basics Project is a collection of coding questions and exercises designed to reinforce fundamental programming concepts in Python. It covers topics such as lists, tuples, dictionaries, object-oriented programming (OOP), class creation, and inheritance.
 
-**Basic Data Structures:** Dive into the world of Python data structures with hands-on coding examples covering lists, tuples, dictionaries, sets, and more. Learn how to manipulate and iterate over these fundamental data types to build robust applications.
+### Topics that covered in this project :
 
-**Algorithmic Exercises:** Challenge yourself with a variety of algorithmic exercises designed to reinforce your understanding of Python syntax and programming principles. From sorting algorithms to searching techniques, sharpen your problem-solving skills and become a proficient Python coder.
+- String Indexing
+- List Operations
+- Dictionaries
+- Built-in Functions(len, sum, max, sorted, abs)
+- Class Creation
+- Class Inheritance
+- Looping Statements(For and While loop)
+- Lambda Functions
+- User Defined Functions(UDF's)
 
-**Best Practices:** Learn industry best practices and coding conventions for writing clean, readable, and maintainable Python code. Discover tips and tricks for optimizing performance, handling errors, and writing efficient algorithms.
+In this project, we have included 5 coding questions for each topic, providing a comprehensive coverage of fundamental Python concepts
 
-**Community Collaboration:** Join a vibrant community of Python enthusiasts, learners, and mentors to share knowledge, collaborate on projects, and support each other's growth as developers. Engage in discussions, ask questions, and contribute your expertise to the collective learning experience.
+### Definitions of each topic that has been covered in this project :
 
-### Why PythonFoundation?
+**String Indexing:** String indexing refers to the ability to access individual characters within a string by their position, or index, in the string. Indexing in Python starts from 0, with the first character at index 0, the second at index 1, and so on.
 
-**Beginner-Friendly:** PythonFoundation provides a gentle introduction to Python programming concepts while offering ample opportunities for hands-on practice and experimentation.
+**List Operations:** List operations involve various actions that can be performed on lists in Python, such as adding or removing elements, accessing elements by index, slicing lists to extract sublists, and concatenating lists.
 
-**Comprehensive Curriculum:** Covering a wide range of topics from basic syntax to advanced data structures and algorithms, PythonFoundation equips you with the essential skills needed to tackle real-world coding challenges.
+**Dictionaries:** Dictionaries in Python are unordered collections of key-value pairs. Each key is unique within a dictionary, and it is associated with a corresponding value. Dictionaries are commonly used for data storage and retrieval based on keys.
 
-**Practical Learning:** Learn by doing with interactive exercises, coding challenges, and real-world examples that demonstrate the practical applications of Python programming in various domains.
+**Built-in Functions:**
 
-**Empowering Growth:** Whether you're a student, a hobbyist, or a professional looking to upskill, PythonFoundation empowers you to unlock your full potential as a Python developer and embark on a rewarding career journey.
+**len:** Returns the number of items in an object, such as the number of elements in a list, the number of characters in a string, or the number of key-value pairs in a dictionary.
 
-### Get Started:
-Ready to embark on your Python programming journey? Clone the PythonFoundation repository and dive into the world of Python programming today!
+**sum:** Calculates the sum of all elements in an iterable, such as a list or tuple.
 
-## BASIC PYTHON DATA MANIPULATION OBJECTIVES:
+**max:** Returns the largest element in an iterable, such as the largest number in a list or the highest character in a string.
+
+**sorted:** Returns a new sorted list from the elements of any iterable. It can also sort dictionaries by key or value.
+
+**abs:** Returns the absolute value of a number, which is the distance of the number from zero on the number line, without considering its sign.
+
+**Class Creation:** Class creation refers to the process of defining a new class in Python. A class serves as a blueprint for creating objects, encapsulating data (attributes) and behaviors (methods) that describe the objects' characteristics and actions.
+
+**Class Inheritance:** Class inheritance is a feature of object-oriented programming (OOP) that allows a new class (subclass) to inherit attributes and methods from an existing class (superclass). This enables code reuse and promotes a hierarchical structure among classes.
+
+**Looping Statements:** Looping statements are used to execute a block of code repeatedly based on a specified condition. Python provides two main looping constructs: the for loop, which iterates over a sequence (such as a list or string), and the while loop, which continues iterating as long as a condition remains true.
+
+**Lambda Functions:** Lambda functions, also known as anonymous functions, are small, anonymous functions defined using the lambda keyword. They are typically used when a simple function is needed for a short period and does not require a formal definition.
+
+**User Defined Functions (UDF's):** User-defined functions (UDFs) are functions defined by the user to perform a specific task. They allow you to encapsulate a block of code that can be reused multiple times throughout a program, promoting code organization and reusability.
+
+#### <div align="center"> <h1> BASIC PYTHON DATA MANIPULATION OBJECTIVES </h1> </div>
 
 ### String Indexing:
 
