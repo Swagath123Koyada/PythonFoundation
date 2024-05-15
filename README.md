@@ -134,43 +134,193 @@ print("Last character:", last_character)
 
 1. Given the list [1, 2, 3, 4, 5], how would you access the third element?
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/eb1d1133-2d87-4a77-8426-68912411bbc6)
+**Code -**
+
+my_list = [1, 2, 3, 4, 5]
+
+third_element = my_list[2]
+
+print("Third element:", third_element)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/9e5b7c88-e444-4481-afcd-4bb6228b47b9)
 
 2. How would you add an element to the end of a list?
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/9f1f3d0b-dc1d-421b-99aa-77c62adc2cc6)
+**Code -**
+
+my_list = [1, 2, 3, 4, 5]
+
+my_list.append(6)
+
+print("Updated list:", my_list)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/6e779334-36e5-4d03-8578-969084abb5a0)
 
 3. Given the list [10, 20, 30, 40, 50], how would you change the value of the third element to 35?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/0db164aa-e0f5-489b-bf55-fc505f0fa78b)
+
+**Code -**
+
+my_list = [10, 20, 30, 40, 50]
+
+my_list[2] = 35
+
+print("Updated list:", my_list)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/caa0b020-0994-4071-b655-4f46b859eb99)
 
 4. How would you remove the last element from a list?
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/306c84c2-4886-4dcb-944a-0a578f22a0a3)
+**Code -**
+
+my_list = [10, 20, 30, 40, 50]
+
+my_list.pop()
+
+print("Updated list:", my_list)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/666458bf-d3dd-4340-9fb6-e31c70703077)
 
 5. Given the lists [1, 2, 3] and [4, 5, 6], how would you concatenate them into a single list?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/4326a080-24e9-452a-9b0c-3ae8006a8c7a)
+
+**Code -**
+
+list1 = [1, 2, 3]
+
+list2 = [4, 5, 6]
+
+concatenated_list = [item for sublist in zip(list1, list2) for item in sublist]
+
+print("Concatenated list:", concatenated_list)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/c4ede065-e918-4b58-b217-f31f1deb0551)
 
 ### Dictionary Operations:
 
 1. Given the dictionary {'Name': 'John', 'Age': 30, 'City': 'New York'}, how would you access the value associated with the key 'age'?
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/c060ac41-7dea-47c1-bec6-b37c7bb0921f)
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/e879e487-88af-4a62-9cb9-99cbb9253b5a)
+**Code -**
 
-3. How would you add a new key-value pair 'gender': 'Male' to the dictionary?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/b770dd1e-61e2-4e9a-8a54-93b694acfa49)
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/3b8599d9-3205-4098-8cf7-06f5700c7ff8)
+- **Using square bracket notation:**
 
-4. Given the dictionary {'a': 1, 'b': 2, 'c': 3}, how would you change the value associated with the key 'b' to 5?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d1f1fc70-a981-47ea-9837-f7273cd6e9f1)
+my_dict = {'Name': 'John', 'Age': 30, 'City': 'New York'}
 
-5. How would you remove a key-value pair from a dictionary?
+age_value = my_dict['Age']
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/5ffc0192-dff5-48a5-bee1-79a8fdc5bfaa)
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/be84e38b-8dec-4cc9-80b0-63fb2a886e50)
+print("Value with the key 'Age':", age_value)
 
-6. How would you create a dictionary from two lists, one containing keys and the other containing values?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/21fdb6ae-621a-4a8a-a563-db4d478e0ddb)
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/5248e49b-e467-44ad-ba7c-aa3fe8475e8c)
+
+- **Using the get() method:**
+
+my_dict = {'Name': 'John', 'Age': 30, 'City': 'New York'}
+
+Age_Value = my_dict.get('Age')
+
+print("Value with the key 'Age':", Age_Value)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d2865302-2671-4b8e-a3f4-e2bb2dd0363f)
+
+2. How would you add a new key-value pair 'gender': 'Male' to the dictionary?
+
+**Code -**
+
+- **Using square bracket notation:**
+     
+my_dict = {'Name': 'John', 'Age': 30, 'City': 'New York'}
+
+my_dict['Gender'] = 'Male'
+
+print("Updated dictionary:", my_dict)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/aa7bbabc-540f-44f1-91e3-47b6b84b454f)
+
+- **Using the update() method:**
+
+my_dict = {'Name': 'John', 'Age': 30, 'City': 'New York'}
+
+my_dict.update({'Gender': 'Male'})
+
+print("Updated dictionary:", my_dict)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/04e15352-cb90-46d2-a043-1485ce14b6cb)
+
+3. Given the dictionary {'a': 1, 'b': 2, 'c': 3}, how would you change the value associated with the key 'b' to 5?
+
+**Code -**
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+my_dict['b'] = 5
+
+print("Updated dictionary:", my_dict)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/c8c858df-a4ae-4a5c-8098-46c350503ce5)
+
+4. How would you remove a key-value pair from a dictionary?
+
+**Code -**
+
+- **Using the del keyword:**
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+del my_dict['b']
+
+print("Updated dictionary:", my_dict)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/37a23d38-27a0-4d86-9efe-50a71f972c83)
+
+- **Using the pop() method:**
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+my_dict.pop('b')
+
+print("Updated dictionary:", my_dict)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/88c9124b-f1e5-41f2-a24c-8c5824058bfe)
+
+5. How would you create a dictionary from two lists, one containing keys and the other containing values?
+
+**Code -**
+
+- **Using a dictionary comprehension:**
+     
+keys = ['a', 'b', 'c']
+
+values = [1, 2, 3]
+
+my_dict = {k: v for k, v in zip(keys, values)}
+
+print("Created dictionary:", my_dict)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d5e219c2-8ad4-4a15-9ac3-ef80d4457b60)
 
 ### Built-in Functions (len, sum, max, sorted, abs):
 
