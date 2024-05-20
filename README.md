@@ -325,83 +325,488 @@ print("Created dictionary:", my_dict)
 ### Built-in Functions (len, sum, max, sorted, abs):
 
 1. How would you use the len() function to find the number of elements in a list?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/367f7599-f5bc-433f-a376-feb65369de35)
+
+**Code -**
+
+my_list = [1, 2, 3, 4, 5]
+
+list_length = len(my_list)
+
+print("Number of elements in the list:", list_length)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/503fee9b-2484-47d4-a68c-d222b1b37d12)
 
 2. How would you use the sum() function to find the sum of elements in a list of numbers?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/af69fb32-d1e3-4b71-be20-f779f6824f69)
+
+**Code -**
+
+numbers = [1, 2, 3, 4, 5]
+
+sum_of_numbers = sum(numbers)
+
+print("Sum of elements in the list:", sum_of_numbers)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/af534db3-0288-4f9f-ad2a-61725480e439)
 
 3. How would you use the max() function to find the largest element in a list of numbers?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/6799ce23-eb4e-43e5-8f52-64b4b25e04ec)
+
+**Code -**
+
+numbers = [10, 20, 30, 40, 50]
+
+largest_number = max(numbers)
+
+print("Largest element in the list:", largest_number)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/3d9eb022-7681-41e0-ba99-c42ff45833a6)
 
 4. How would you use the abs() function to find the absolute value of -10?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/58c4f19b-8916-498e-a858-a8ec0b006e79)
+
+**Code -**
+
+absolute_value = abs(-10)
+
+print("Absolute value of -10:", absolute_value)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/66720208-e199-4ecc-9ca4-70aa5c0660eb)
 
 5. How would you use the sorted() function to sort a list of numbers in ascending order?
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d4e8d526-ca4a-4fa9-8d46-0326af9a7754)
+
+**Code -**
+
+numbers = [5, 2, 8, 1, 10]
+
+sorted_numbers = sorted(numbers)
+
+print("Sorted list of numbers:", sorted_numbers)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/2e104b20-6c90-4bc5-96e9-3dd4116c8972)
 
 ### Class Creation:
 
 1. Define a class Car with attributes make, model, and year. Implement a method display_info() that prints out the car's make, model,and year.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/e330bd73-219b-4145-9f93-cb83d64a0081)
+**Code -**
+
+class Car:
+    
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+
+    def display_info(self):
+        print("Car Make:", self.make)
+        print("Car Model:", self.model)
+        print("Car Year:", self.year)
+
+car1 = Car("Toyota", "Corolla", 2020)
+
+car1.display_info()
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/03f58bfe-bb35-406a-8020-c7aceb0966db)
 
 2 Create a class Book with attributes title, author, and pages. Implement a method display_info() that prints out the book's title, author, and number of pages.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/ed54b69d-ce00-4ad6-8832-f6995a6ab0d9)
+**Code -**
+
+class Book:
+    
+    def __init__(self, title, author, pages):
+        self.title = title
+        self.author = author
+        self.pages = pages
+
+    def display_info(self):
+        print("Title:", self.title)
+        print("Author:", self.author)
+        print("Number of Pages:", self.pages)
+
+book = Book("The Great Gatsby", "F. Scott Fitzgerald", 180)
+
+book.display_info()
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/5d1559a4-5f6d-4a27-afe3-75ab3efb8e04)
 
 3. Create a class Dog with attributes name, breed, and age. Implement a method speak() that prints out the dog's name and says "Woof!".
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d75a55fa-27ce-4d02-a0da-e31f750bd30a)
+**Code -**
+
+class Dog:
+    
+    def __init__(self, name, breed, age):
+        self.name = name
+        self.breed = breed
+        self.age = age
+
+    def speak(self):
+        print(f"{self.name} says 'Woof!'")
+
+my_dog = Dog("Buddy", "Labrador Retriever", 3)
+
+my_dog.speak() 
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/b62d9179-62bb-4f19-84e4-ebc0f0525d34)
 
 4. Create a class Employee with attributes name, salary, and department. Implement a method get_bonus() that returns 10% of the employee's salary as a bonus.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a306702d-cabd-48f0-860c-ddf4a3822194)
+**Code -**
+
+class Employee:
+    
+    def __init__(self, name, salary, department):
+        self.name = name
+        self.salary = salary
+        self.department = department
+
+    def get_bonus(self):
+        return 0.1 * self.salary  # 10% of the employee's salary
+
+emp = Employee("John Doe", 50000, "Engineering")
+
+bonus_amount = emp.get_bonus()
+
+print(f"{emp.name} earned a bonus of ${bonus_amount}")
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/4d9e1e98-2894-421e-b18a-769edf075184)
 
 5. Define a class Student with attributes name and age. Implement a method is_adult() that returns True if the student is 18 years or older, otherwise False.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/9ba6811d-0040-41b2-923c-970dab4e82cb)
+**Code -**
+
+class Student:
+    
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def is_adult(self):
+        return self.age >= 18
+
+
+student1 = Student("Alice", 20)
+
+student2 = Student("Bob", 17)
+
+print(f"{student1.name} is an adult: {student1.is_adult()}")
+
+print(f"{student2.name} is an adult: {student2.is_adult()}")
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/0248002a-2eba-4401-8159-7249844f3a48)
 
 ### Class Inheritance:
 
 1. Define a class Animal with attributes name and species. Create a subclass Dog that inherits from Animal and adds an attribute breed. Implement a method speak() in both classes to print out the sound the animal makes.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/685d5da8-30fa-47cd-ba9f-e2c5238a6ff8)
+
+**Code -**
+
+class Animal:
+    
+    def __init__(self, name, species):
+        
+        self.name = name
+        
+        self.species = species
+
+    def speak(self):
+        
+        pass  # This method will be overridden in subclasses
+
+class Dog(Animal):
+    
+    def __init__(self, name, species, breed):
+        
+        super().__init__(name, species)
+        
+        self.breed = breed
+
+    def speak(self):
+        
+        print(f"{self.name} says 'Woof!'")
+
+
+animal = Animal("Kitty", "Cat")
+
+animal.speak()
+
+dog = Dog("Buddy", "Dog", "Labrador Retriever")
+
+dog.speak()
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/9cb3f51e-ba1c-4fbe-a0db-69190c863451)
 
 2. Create a class Employee with attributes name and salary. Define a subclass Manager that inherits from Employee and adds an attribute bonus. Implement a method calculate_total_salary in both classes to calculate the total salary including bonus for a manager.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/19dd8b05-4025-4ab2-88c9-39012b0b60c1)
+**Code -**
+
+class Employee:
+    
+    def __init__(self, name, salary):
+        
+        self.name = name
+        
+        self.salary = salary
+
+    def calculate_total_salary(self):
+        
+        return self.salary
+
+class Manager(Employee):
+    
+    def __init__(self, name, salary, bonus):
+        
+        super().__init__(name, salary)
+        
+        self.bonus = bonus
+
+    def calculate_total_salary(self):
+        
+        return self.salary + self.bonus
+
+emp1 = Employee("John", 50000)
+
+print(emp1.calculate_total_salary())
+
+manager1 = Manager("Alice", 60000, 10000)
+
+print(manager1.calculate_total_salary())
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/9d1b4f08-dbfd-4be6-99c3-6ca461ae7aa5)
 
 3. Define a class Person with attributes name and age. Create a subclass Student that inherits from Person and adds an attribute grade. Implement a method is_passing in the Student class that returns True if the student's grade is above or equal to 'C', otherwise False.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/1c1818db-40cb-42a4-b3f7-81e2775a403d)
+**Code -**
+
+class Person:
+    
+    def __init__(self, name, age):
+        
+        self.name = name
+        
+        self.age = age
+
+class Student(Person):
+    
+    def __init__(self, name, age, grade):
+        
+        super().__init__(name, age)
+        
+        self.grade = grade
+
+    def is_passing(self):
+        
+        return self.grade <= 'C'
+
+student1 = Student("Alice", 20, 'B')
+
+print(student1.is_passing())
+
+student2 = Student("Bob", 21, 'D')
+
+print(student2.is_passing())
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/47959148-286e-41bf-92a6-a16ff81a11c4)
 
 4. Define a class Employee with attributes name and salary. Create subclasses Manager and Developer that inherit from Employee. Implement methods calculate_bonus in each subclass to calculate the bonus based on the salary.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/2252c046-905f-4bfa-8e2d-92ac768d34d8)
+
+**Code -**
+
+class Employee:
+    
+    def __init__(self, name, salary):
+        
+        self.name = name
+        
+        self.salary = salary
+
+class Manager(Employee):
+    
+    def calculate_bonus(self):
+        
+        return self.salary * 0.15  # Manager gets 15% bonus
+
+class Developer(Employee):
+    
+    def calculate_bonus(self):
+        
+        return self.salary * 0.10  # Developer gets 10% bonus
+
+manager = Manager("John", 10000)
+
+developer = Developer("Alice", 8000)
+
+print(f"Manager bonus: {manager.calculate_bonus()}")
+
+print(f"Developer bonus: {developer.calculate_bonus()}")
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/4c79cf65-0d36-423b-848b-76a5c6a818bf)
 
 5. Create a class Fruit with attributes name and color. Define a subclass Apple that inherits from Fruit and adds attributes taste and size. Implement a method is_delicious() in both classes to determine if the fruit is delicious based on its taste.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/42cbb5a7-2fbd-412d-ae7a-602a415abfcf)
+**Code -**
+
+class Fruit:
+    
+    def __init__(self, name, color):
+        
+        self.name = name
+        
+        self.color = color
+
+    def is_delicious(self):
+        
+        return True  
+
+class Apple(Fruit):
+    
+    def __init__(self, name, color, taste, size):
+        
+        super().__init__(name, color)
+        
+        self.taste = taste
+        
+        self.size = size
+
+    def is_delicious(self):
+        
+        return self.taste == "sweet"
+
+fruit = Fruit("Banana", "Yellow")
+
+print("Is banana delicious?", fruit.is_delicious())
+
+apple = Apple("Apple", "Red", "sweet", "medium")
+
+print("Is apple delicious?", apple.is_delicious())
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a4b4391d-6570-47ee-ae9a-255f29bb22da)
 
 ### Looping Statements
 **For Loop**
 
 1. Write a program to print the numbers from 1 to 5 using a for loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/bc68d383-65e1-49ff-a6ac-c27f84a7ab62)
+**Code -**
+
+for number in range(1, 6):
+    
+    print(number, end=' ')
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/a8facb34-b2a8-42a8-8dab-f21e70e375b4)
 
 2. Write a program to print the even numbers between 1 and 10 using a for loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/dae65282-e2c4-4709-a3ab-57afccb4ca7e)
+**Code -**
+
+for number in range(2, 11, 2):
+    
+    print(number, end=' ')
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/ad559eaf-e860-4634-b407-4578a83e8f4f)
 
 3. Write a program to calculate the sum of all numbers from 1 to 100 using a for loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/2bf13514-07a8-44ba-93c9-cb70fa232ebc)
+**Code -**
+
+total_sum = 0
+
+for number in range(1, 101):
+    
+    total_sum += number
+
+print("The sum of all numbers from 1 to 100 is:", total_sum)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/17e1734a-35af-4bc6-a6f0-75d09704e729)
 
 4. Write a program to find the factorial of a given number using a for loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/297d8341-f61f-4c61-a925-be0cdca9029f)
+**Code -**
+
+def factorial(n):
+    
+    result = 1
+    
+    for i in range(1, n + 1):
+        
+        result *= i
+    
+    return result
+
+number = 5
+
+print("Factorial of", number, "is:", factorial(number))
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/164f5fc9-f69d-4542-9556-64693aff458c)
 
 5. Write a program to print the Fibonacci series up to a certain limit using a for loop.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/c6329f3a-9c00-475a-aa73-06a725433f58)
+
+**Code -**
+
+def fibonacci(limit):
+    
+    first_num = 0
+    
+    second_num = 1
+
+    print(first_num, end=" ")
+    
+    print(second_num, end=" ")
+
+    for _ in range(2, limit):
+        
+        next_num = first_num + second_num
+        
+        if next_num > limit:
+            
+            break
+       
+        print(next_num, end=" ")
+        
+        first_num, second_num = second_num, next_num
+
+fibonacci(50)
+
+**Output**
+
+  ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/c6a81035-c65e-4315-806b-4d5167f321b4)
 
 **While Loop**
 
