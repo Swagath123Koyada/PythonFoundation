@@ -18,7 +18,7 @@ Welcome to **Python Basics Project**, your gateway to mastering the fundamentals
 - Lambda Functions
 - User Defined Functions(UDF's)
 
-In this project, we have included 5 coding questions for each topic, providing a comprehensive coverage of fundamental Python concepts
+- In this project, we have included 5 coding questions for each topic, providing a comprehensive coverage of fundamental Python concepts
 
 ### Definitions of each topic that has been covered in this project :
 
