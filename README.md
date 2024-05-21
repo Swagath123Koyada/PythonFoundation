@@ -812,58 +812,301 @@ fibonacci(50)
 
 1. Write a program to print the numbers from 1 to 5 using a while loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/ff5afbe0-e00d-4476-b6fb-81af198bd48f)
+**Code -**
+
+number = 1
+
+while number <= 5:
+    
+    print(number)
+    
+    number += 1
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/092b4333-1d6a-42c3-bb8d-7aaf2c8a4ba0)
 
 2. Write a program to print the even numbers between 1 and 10 using a while loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/43330fae-a1e2-4da5-ad13-d4405f6e3e8d)
+**Code -**
+
+number = 2
+
+while number <= 10:
+    
+    print(number, end=' ')
+    
+    number += 2
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/ab905c8a-cb36-4990-8e11-c200ee338418)
 
 3. Write a program to calculate the sum of all numbers from 1 to 100 using a while loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d7cc9d55-5ab2-42c8-8ee3-44aa4d18a0b1)
+**Code -**
+
+total_sum = 0
+
+number = 1
+
+while number <= 100:
+    
+    total_sum += number
+    
+    number += 1
+
+print("The sum of all numbers from 1 to 100 is:", total_sum)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d02242f8-fdc3-4184-98f8-2ce329ce57b2)
 
 4. Write a program to find the factorial of a given number using a while loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/257e313c-2239-424a-a5c2-8db51c40527b)
+**Code -**
+
+def factorial(n):
+    
+    result = 1
+    
+    while n > 0:
+        
+        result *= n
+        
+        n -= 1
+    
+    return result
+
+number = 5
+
+print("Factorial of", number, "is:", factorial(number))
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/1d0eb7e9-627c-4169-bfa6-bad6c434dd3a)
 
 5. Write a program to print the Fibonacci series up to a certain limit using a while loop.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/2e1d7de6-8016-4f8a-956d-60787573ad00)
+def fibonacci(limit):
+   
+    first_num, second_num = 0, 1
+
+    print(first_num, end=" ")
+    
+    print(second_num, end=" ")
+
+    while True:
+        
+        next_num = first_num + second_num
+        
+        if next_num > limit:
+            
+            break
+        
+        print(next_num, end=" ")
+        
+        first_num, second_num = second_num, next_num
+
+limit = 50
+
+print("Fibonacci series up to", limit, "is:")
+
+fibonacci(limit)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/09196b69-b64f-4983-8ca6-ae6706277871)
 
 ### Lambda Functions:
 
 1. Write a lambda function to calculate the square of a number.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/3a7f080a-8244-4ebc-8c4c-48801cbc10ba)
+**Code -**
+
+square = lambda x: x ** 2
+
+number = 5
+
+print("Square of", number, "is:", square(number))
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/720235bd-2d32-400e-8c6d-dc1bd0e4ae01)
 
 2. Create a list of numbers and use a lambda function to filter out the even numbers.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/83b7d0c8-917e-4702-a57b-25b868deb359)
+**Code -**
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+
+print("Original list of numbers:", numbers)
+
+print("Even numbers:", even_numbers)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/7ea3a0ca-b4e1-4ee6-86d9-e9199d7e80c7)
 
 3. Write a lambda function to find the sum of two numbers.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/d88cccb7-690e-404a-bc89-c62997057650)
+**Code -**
+
+addition = lambda x, y: x + y
+
+num1 = 5
+
+num2 = 3
+
+print("Sum of", num1, "and", num2, "is:", addition(num1, num2))
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/71f02040-69d3-44a7-9bb5-336f12343a7f)
 
 4. Create a list of tuples containing student names and their corresponding scores. Use a lambda function to sort the list by scores.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/e89809fb-2083-4a80-a461-82cf665b1b0c)
+
+**Code -**
+
+students = [("Alice", 85), ("Bob", 90), ("Charlie", 75), ("David", 80)]
+
+sorted_students = sorted(students, key=lambda x: x[1])
+
+print("Sorted list of students by scores:")
+
+for student in sorted_students:
+    
+    print(student)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/505ff84e-9bc0-4daa-a154-e8b2fcd01e31)
 
 5. Create a list of strings and use a lambda function to sort them alphabetically.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/98f66765-20ff-43d0-b3d7-f1455c36070c)
+
+**Code -**
+
+strings = ["banana", "apple", "orange", "grape", "kiwi"]
+
+sorted_strings = sorted(strings, key=lambda x: x.lower())
+
+print("Sorted list of strings alphabetically:")
+
+for string in sorted_strings:
+    
+    print(string)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/99fb7ab3-2b1f-4bd0-86b3-ac7308cbe8ba)
 
 ### UDF: Arguments and Parameters
 
 1. Write a function called add_numbers that takes two numbers as input and returns their sum.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/27386098-25ad-4d8a-919a-a2a5c09504de)
+
+**Code -**
+
+def add_numbers(num1, num2):
+    
+    return num1 + num2
+
+result = add_numbers(5, 3)
+
+print("The sum of 5 and 3 is:", result)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/f7dcd935-160d-4148-99e0-71fe04311fd2)
 
 2. Create a function called is_even that takes a single number as input and returns True if it's even, otherwise False.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/6f2b7402-b683-407a-be27-f53505f43faf)
+
+**Code -**
+
+def is_even(number):
+    
+    return number % 2 == 0
+
+number = 2
+
+print("Is", number, "even?", is_even(number))
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/6f21eec4-88ec-42d0-8600-c90d6e978bd1)
 
 3. Define a function called calculate_area that calculates the area of a rectangle given its length and width as input parameters.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/b97de5e1-9ebd-4b86-809d-084cbd198f15)
+
+**Code -**
+
+def calculate_area(length, width):
+   
+    return length * width
+
+length = 5
+
+width = 3
+
+area = calculate_area(length, width)
+
+print("The area of the rectangle with length", length, "and width", width, "is:", area)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/9fb3657f-0ca0-4b0d-9cfb-6c8037f101a8)
 
 4. Write a function called reverse_string that takes a string as input and returns its reverse.
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/1186566d-1340-4b6f-a324-bafad99220d4)
+
+**Code -**
+
+def reverse_string(input_string):
+   
+    return input_string[::-1]
+
+input_string = "hello"
+
+reversed_string = reverse_string(input_string)
+
+print("The reverse of", input_string, "is:", reversed_string)
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/7b1a566a-00f3-4cce-bd48-a7e19b1bf278)
 
 5. Create a function called is_prime that takes a positive integer as input and returns True if it's prime, otherwise False.
 
-   ![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/71e08795-362c-4ccb-8e79-5ff8595059e4)
+**Code -**
+
+def is_prime(number):
+    
+    if number <= 1:
+        
+        return False
+    
+    elif number == 2:
+        
+        return True
+    
+    elif number % 2 == 0:
+       
+        return False
+    
+    else:
+        
+        for i in range(3, int(number ** 0.5) + 1, 2):
+           
+            if number % i == 0:
+                
+                return False
+        
+        return True
+
+number = 17
+
+print("Is", number, "prime?", is_prime(number))
+
+**Output**
+
+![image](https://github.com/Swagath123Koyada/PythonFoundation/assets/164196153/ba958daf-18a1-459c-8064-b4247837cd6d)
+
